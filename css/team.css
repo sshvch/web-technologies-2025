@@ -1,0 +1,45 @@
+.team {
+  padding-top: 50px;
+  padding-left: 40px;
+  position: relative;
+  height: 581px;
+  background-color: #F2F4F7;
+}
+
+.team-text1 {
+  margin-top: 30px;
+  width: 650px;
+  padding-bottom: 20px;
+}
+
+.team-text2 {
+  width: 500px;
+  margin-top: 30px;
+}
+
+.team-img {
+  position: absolute;
+  left: 600px;
+}
+
+.team-img img {
+  width: 600px;
+  height: 413px;
+}
+
+.team-info {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  gap: 40px;
+}
+
+.team-info div h2 {
+  font-size: 3rem;
+  margin: 5px;
+}
+
+.gray-text {
+  color: gray;
+  font-size: 1.3rem;
+}

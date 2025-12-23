@@ -1,0 +1,63 @@
+.header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: whitesmoke;
+  margin-top: 40px;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border: 2px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-left: 80px;
+}
+
+.menu {
+  display: block;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+
+.logo {
+  font-size: 1.3rem;
+  padding-left: 30px;
+  margin-right: 10px;
+}
+
+.phone-numbers {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.phone-numbers img {
+  width: 30px;
+  height: 30px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  padding-right: 35px;
+  gap: 10px;
+}
+
+.email img {
+  width: 25px;
+  height: 25px;
+}
+
+.contacts {
+  color: #2D66EE;
+  display: flex;
+  gap: 20px;
+}

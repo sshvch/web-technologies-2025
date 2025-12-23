@@ -1,0 +1,25 @@
+.question-answer {
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.question button {
+  border: none;
+  background-color: transparent;
+}
+
+.question button img {
+  width: 50px;
+  height: auto;
+}
+
+.answer {
+  display: none;
+}

@@ -1,0 +1,97 @@
+
+
+.main {
+  background-color: #F2F4F7;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+  overflow-x: hidden;
+  font-size: 0.8rem;
+  padding-left: 0px;
+}
+
+.text-main {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-left: 40px;
+  z-index: 10;
+  width: 600px;
+}
+
+.text-main h1 {
+  padding-top: 180px;
+  font-size: 1.8rem;
+}
+
+.text-main p {
+  font-size: 1.1rem;
+}
+
+.form {
+  width: 700px;
+  height: 200px;
+  background-color: White;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  gap: 20px;
+  margin-left: 1%;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 20px;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  padding: 5px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+  gap: 20px;
+}
+
+.blue-text {
+  color: #2f87fc;
+}
+
+.verticalDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.verticalDiv input {
+  padding-top: 10px;
+}
+
+.input-label {
+  color: gray;
+}
+
+.textBox {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  width: 224px;
+}
+
+.button-form {
+  color: white;
+  background-color: #0667f6;
+  height: 40px;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  margin-left: 0px;
+}
+
+.contener-for-button-form {
+  padding-left: unset;
+  height: 58px;
+}
