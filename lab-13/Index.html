@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор пиццы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Собери пиццу</h1>
+    
+    <!-- Размер -->
+    <div class="block">
+        <h3>Размер:</h3>
+        <button class="size-btn" data-size="Маленькая">Маленькая</button>
+        <button class="size-btn" data-size="Большая">Большая</button>
+    </div>
+
+    <!-- Тип пиццы -->
+    <div class="block">
+        <h3>Основа:</h3>
+        <button class="type-btn" data-type="Маргарита">Маргарита</button>
+        <button class="type-btn" data-type="Пепперони">Пепперони</button>
+        <button class="type-btn" data-type="Баварская">Баварская</button>
+    </div>
+
+    <!-- Добавки -->
+    <div class="block">
+        <h3>Добавки:</h3>
+        <div id="toppings-container"></div>
+    </div>
+
+    <!-- Итого -->
+    <div class="total">
+        <div>Цена: <span id="total-price">0</span> ₽</div>
+        <div>Калории: <span id="total-calories">0</span> ккал</div>
+    </div>
+
+    <!-- Кнопка -->
+    <button class="cart-btn" id="add-to-cart">Добавить в корзину</button>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
